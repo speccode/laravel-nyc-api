@@ -187,6 +187,11 @@ return [
          */
 
         /*
+         * Modules Service Providers...
+         */
+        Speccode\BestSellers\ModuleServiceProvider::class,
+
+        /*
          * Application Service Providers...
          */
         App\Providers\AppServiceProvider::class,

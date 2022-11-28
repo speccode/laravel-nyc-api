@@ -1,7 +1,7 @@
 <?php
 
-use App\Http\Controllers\GetBestSellersList;
 use Illuminate\Support\Facades\Route;
+use Speccode\BestSellers\Infrastructure\Http\Controllers\GetBestSellersList;
 
 /*
 |--------------------------------------------------------------------------
