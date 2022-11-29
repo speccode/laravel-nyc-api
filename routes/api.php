@@ -13,4 +13,4 @@ use Speccode\BestSellers\Infrastructure\Http\Controllers\GetBestSellersList;
 | is assigned the "api" middleware group. Enjoy building your API!
 |
 */
-Route::get('/api/1/nyt/best-sellers', GetBestSellersList::class);
+Route::post('/1/nyt/best-sellers', GetBestSellersList::class)->name('best-sellers');
